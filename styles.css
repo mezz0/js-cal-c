@@ -47,7 +47,7 @@ button:hover {
 }
 
 #padwrapper {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 #resetbutton {
@@ -59,7 +59,7 @@ button:hover {
   background-color: #F8274E;
   border: none;
   color: #fff;
-  width: 30%;
+  width: calc(100% / 3);
 }
 
 .all-clear:hover {
@@ -67,11 +67,12 @@ button:hover {
 }
 
 .save {
-  width: 70%;
+  flex-grow: 1;
   background-color: #F8274E;
   color: white;
   font-weight: 300;
   border: none;
+  pointer-events: none;
 }
 
 #digits {
