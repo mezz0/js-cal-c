@@ -1,3 +1,6 @@
+import './scss/style.scss'
+import Data from './data.csv'
+
 const calculator = { result: '0', initialIn: null, secondOp: false }
 const performCalculation = {
   '/': (initialIn, secondIn) => initialIn / secondIn,
