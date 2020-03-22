@@ -38,6 +38,11 @@ keys.addEventListener('click', (event) => {
     updateDisplay()
     return
   }
+  if (target.classList.contains('save')) {
+    // perform php here
+    return
+  }
+
   input(target.value)
   updateDisplay()
 })
